@@ -1,0 +1,30 @@
+day1:
+  - time: 09:00-12:30
+    info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+
+  - time: Afternoon
+    info: "sed do eiusmod tempor incididunt"
+day2:
+  - time: Morning
+    info: "ut labore et dolore magna aliqua."
+
+  - time: Afternoon
+    info: "Ut enim ad minim veniam"
+day3:
+  - time: Morning
+    info: "Quis nostrud exercitation ullamco laboris"
+
+  - time: Afternoon
+    info: "nisi ut aliquip ex ea commodo consequat."
+day4:
+  - time: Morning
+    info: "Duis aute irure dolor in reprehenderit"
+
+  - time: Afternoon
+    info: "in voluptate velit esse cillum dolore"
+day5:
+  - time: Morning
+    info: "Excepteur sint occaecat cupidatat non proident"
+
+  - time: Afternoon
+    info: "sunt in culpa qui officia deserunt mollit anim id est laborum."

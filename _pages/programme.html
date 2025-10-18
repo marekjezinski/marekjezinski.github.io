@@ -1,0 +1,151 @@
+---
+layout: page
+permalink: /programme
+title: Programme
+published: true
+---
+
+<div class="container keditPointerEvents_off">
+    <div class="row align-items-center">
+        <div class="col-12 col-lg-12 pr-md-5 keditPointerEvents_on">
+            <h3 class=" font-weight-normal fw-normal">Preliminary Programme</h3>
+            <p><a href="#">Download</a> the conference brochure.</p>
+            <p>
+            <h4 class=" font-weight-normal fw-normal">Monday 29th of June</h4>
+            <table class="table table-bordered align-middle table-responsive table-striped">
+                <tbody>
+                    {% for entry in site.data.programme-table.day1 %}
+                    <tr>
+                        <th scope="row" style="width: 28%;">{{ entry.time }}</th>
+                        <td>{{ entry.info }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            </p>
+
+            <p>
+            <h4 class=" font-weight-normal fw-normal" id="tuesday">Tuesday 30th of June</h4>
+            <table class="table table-bordered align-middle table-responsive table-striped">
+                <tbody>
+                    {% for entry in site.data.programme-table.day2 %}
+                    <tr>
+                        <th scope="row" style="width: 28%;">{{ entry.time }}</th>
+                        <td>{{ entry.info }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            </p>
+
+            <p>
+            <h4 class=" font-weight-normal fw-normal" id="wednesday">Wednesday 1st of July</h4>
+            <table class="table table-bordered align-middle table-responsive table-striped">
+                <tbody>
+                    {% for entry in site.data.programme-table.day3 %}
+                    <tr>
+                        <th scope="row" style="width: 28%;">{{ entry.time }}</th>
+                        <td>{{ entry.info }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <h4 class=" font-weight-normal fw-normal" id="wednesday">Thursday 2nd of July</h4>
+            <table class="table table-bordered align-middle table-responsive table-striped">
+                <tbody>
+                    {% for entry in site.data.programme-table.day4 %}
+                    <tr>
+                        <th scope="row" style="width: 28%;">{{ entry.time }}</th>
+                        <td>{{ entry.info }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <h4 class=" font-weight-normal fw-normal" id="wednesday">Friday 3rd of July</h4>
+            <table class="table table-bordered align-middle table-responsive table-striped">
+                <tbody>
+                    {% for entry in site.data.programme-table.day5 %}
+                    <tr>
+                        <th scope="row" style="width: 28%;">{{ entry.time }}</th>
+                        <td>{{ entry.info }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            </p>
+
+        </div>
+    </div>
+</div>
+<hr>
+<div class="container keditPointerEvents_off">
+    <div class="row align-items-center">
+        <div class="col-12 col-lg-12 pr-md-5 keditPointerEvents_on">
+            <h3 class=" font-weight-normal fw-normal">Contributed Talks Sessions</h3>
+            <p>
+            <h5 class="font-weight-normal fw-normal" id="contributed1">Contributed talks 1:</h4>
+                <ul>
+                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s,</a>
+                    </li>
+                    <li>when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</li>
+                </ul>
+                </p>
+                <p>
+                <h5 class="font-weight-normal fw-normal" id="contributed2">Contributed talks 2:
+                    </h4>
+                    <ul>
+                        <li> It was popularised in the 1960s with the release 
+                            of Letraset sheets containing Lorem
+                        </li>
+                        <li>Ipsum passages, and more recently with desktop publishing software 
+                            like Aldus PageMaker including versions of Lorem Ipsum.
+                        </li>
+                    </ul>
+                    </p>
+
+                    <p>
+
+        </div>
+    </div>
+</div>
+<hr>
+<div class="container keditPointerEvents_off">
+    <div class="row align-items-center">
+        <div class="col-12 col-lg-12 pr-md-5 keditPointerEvents_on">
+            <h3 class=" font-weight-normal fw-normal">Invited Talks</h3>
+            <h4></h4>
+            <h5><a href="#">Name & Surname</a>
+                <em>Why do we use it?</em>
+            </h5>
+            <p>It is a long established fact that a reader will be distracted by the readable content 
+                of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less 
+                normal distribution of letters, as opposed to using 'Content here, content here', making it look like 
+                readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default 
+                model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions 
+                have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+            </p>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="container keditPointerEvents_off">
+    <div class="row align-items-center">
+        <div class="col-12 col-lg-12 pr-md-5 keditPointerEvents_on">
+            <h3 class=" font-weight-normal fw-normal">Special Session</h3>
+            <h5><a href="#">Name 2</a> <em>Where does it come from?</em></h5>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin 
+                literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor 
+                at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, 
+                from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the 
+                undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" 
+                (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, 
+                very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+            <h5><a href="#">Continued...</a> <em>The standard chunk...</em></h5>
+            <p>of Lorem Ipsum used since the 1500s is reproduced 
+                below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" 
+                by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+        </div>
+    </div>
+</div>
