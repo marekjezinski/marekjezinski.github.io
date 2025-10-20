@@ -7,8 +7,8 @@
     {%- if page_paths -%}
     <nav class="navbar navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand text-truncate" href="index.html">
-          <img src="assets/logo.png" style="border:0; vertical-align: middle; padding-bottom: 5px; padding-right: 5px;" id="WebsiteLogo"
+        <a class="navbar-brand text-truncate" href="{{ "index.html" | relative_url }}">
+          <img src="{{ "/assets/logo.png" | relative_url }}" style="border:0; vertical-align: middle; padding-bottom: 5px; padding-right: 5px;" id="WebsiteLogo"
             height="50">
           <span>{{ site.title }}</span>
         </a>

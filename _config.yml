@@ -21,10 +21,11 @@
 title: Logic Colloquium 2026 Swansea
 email: m.t.jezinski@swansea.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  TODO: This will be the official description of my site.
+  The Logic Colloquium 2026 will be hosted by Swansea University, UK.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  marekjezinski
+locale: en_GB
 
 plugins:
   - jekyll-feed
