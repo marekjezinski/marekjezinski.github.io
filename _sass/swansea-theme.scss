@@ -201,10 +201,6 @@ input[type="button"].btn-block {
 	position: relative
 }
 
-#website .row>* {}
-
-form:not(.cart_form) .row div:not(.col):not(.col-auto) {}
-
 .form-group {
 	margin-bottom: 1rem
 }
@@ -6411,8 +6407,8 @@ img.mfp-img {
 .btn-color1.active,
 .open .dropdown-toggle.btn-color1 {
 	color: #FFF;
-	background-color: var(--color1_125);
-	border-color: var(--color1_125)
+	background-color: var(--color1_175);
+	border-color: var(--color1_175)
 }
 
 .btn-color1:active,
@@ -8485,51 +8481,12 @@ a.headerBanner_item,
 }
 
 :root {
-	--color1: #ff9b42;
-	--color2: #d9e5d6;
-	--color1_rgb: 255, 155, 66;
-	--color1_hsl: 28, 100%, 63%;
-	--color1_hs: 28, 100%;
-	--color1_h: 28;
-	--color1_s: 100%;
-	--color1_l: 63%;
-	--color1_25: #ffe6d0;
-	--color1_50: #ffcda1;
-	--color1_75: #ffb471;
-	--color1_125: #bf7432;
-	--color1_150: #804e21;
-	--color1_175: #402711;
-	--color2_rgb: 217, 229, 214;
-	--color2_hsl: 108, 22%, 87%;
-	--color2_hs: 108, 22%;
-	--color2_h: 108;
-	--color2_s: 22%;
-	--color2_l: 87%;
-	--color2_25: #f6f9f5;
-	--color2_50: #ecf2eb;
-	--color2_75: #e3ece0;
-	--color2_125: #a3aca1;
-	--color2_150: #6d736b;
-	--color2_175: #363936;
-	--color1_bw: rgba(255, 255, 255, 0.8);
-	--color1_25_bw: rgba(0, 0, 0, 0.8);
-	--color1_50_bw: rgba(0, 0, 0, 0.8);
-	--color1_75_bw: rgba(0, 0, 0, 0.8);
-	--color1_125_bw: rgba(255, 255, 255, 0.8);
-	--color1_150_bw: rgba(255, 255, 255, 0.8);
-	--color1_175_bw: rgba(255, 255, 255, 0.8);
-	--color2_bw: rgba(0, 0, 0, 0.8);
-	--color2_25_bw: rgba(0, 0, 0, 0.8);
-	--color2_50_bw: rgba(0, 0, 0, 0.8);
-	--color2_75_bw: rgba(0, 0, 0, 0.8);
-	--color2_125_bw: rgba(255, 255, 255, 0.8);
-	--color2_150_bw: rgba(255, 255, 255, 0.8);
-	--color2_175_bw: rgba(255, 255, 255, 0.8);
-	;
+	--color1: #005495;
+	--color2: #FFCD03;
 	--font1: Montserrat;
 	--font2: Raleway;
 	--font3: Helvetica Neue, sans-serif;
-	--color1_rgb: 255, 155, 66;
+	--color1_rgb: 0, 84, 149;
 	--color1_hsl: 28, 100%, 63%;
 	--color1_hs: 28, 100%;
 	--color1_h: 28;
@@ -8538,10 +8495,10 @@ a.headerBanner_item,
 	--color1_25: #ffe6d0;
 	--color1_50: #ffcda1;
 	--color1_75: #ffb471;
-	--color1_125: #bf7432;
-	--color1_150: #804e21;
-	--color1_175: #402711;
-	--color2_rgb: 217, 229, 214;
+	--color1_125: #004982;
+	--color1_150: #003C6B;
+	--color1_175: #003259;
+	--color2_rgb: 255, 205, 3;
 	--color2_hsl: 108, 22%, 87%;
 	--color2_hs: 108, 22%;
 	--color2_h: 108;
@@ -8602,6 +8559,10 @@ ul.koCheckList li:before {
 #contentArea a:not(.btn),
 #contentArea a.btn-link {
 	color: var(--color1)
+}
+
+#contentArea a:not(.btn):hover {
+	color: var(--color1_175)
 }
 
 #website.koMenu a:not(.btn):not(.koMenuButton),
